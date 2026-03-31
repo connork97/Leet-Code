@@ -3,7 +3,8 @@
  * @return {boolean}
  */
 
-// * Time Complexity: O(log n), Space Complexity: O(log n)
+// * Time Complexity: O(log n)
+// * Space Complexity: O(log n)
 var isHappy = function (n) {
     const numSet = new Set();
     let numString = String(n)
@@ -20,7 +21,8 @@ var isHappy = function (n) {
     return false;
 };
 
-// Time Complexity: O(log n), Space Complexity: "Effectively (bounded)" O(1)
+// * Time Complexity: O(log n)
+// * Space Complexity: "Effectively (bounded)" O(1)
 // var isHappy = function (n) {
 //     const seen = new Set();
 

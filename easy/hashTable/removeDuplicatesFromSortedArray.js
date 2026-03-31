@@ -3,7 +3,8 @@
  * @return {number}
  */
 
-// Time Complexity: O(n), Space Complexity: O(1)
+// * Time Complexity: O(n)
+// * Space Complexity: O(1)
 var removeDuplicates = function (nums) {
     if (nums.length === 0) return 0;
 
@@ -19,9 +20,10 @@ var removeDuplicates = function (nums) {
     return k;
 };
 
-// ORIGINAL SOLUTION
-// Time to Complete: 12:18
-// Time Complexity: O(n^2), Space Complexity: O(1)
+// * ORIGINAL SOLUTION
+// * Time to Complete: 12:18
+// * Time Complexity: O(n^2)
+// * Space Complexity: O(1)
 // var removeDuplicates = function (nums) {
 //     let lastNum = nums[0];
 //     for (let i = 1; i < nums.length; i++) {

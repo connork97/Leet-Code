@@ -4,7 +4,8 @@
  * @return {boolean}
  */
 
-// * Time Complexity: O(n), Space Complexity: O(k)
+// * Time Complexity: O(n)
+// * Space Complexity: O(k)
 var isIsomorphic = function (s, t) {
     const map = new Map();
     const seen = new Set();
@@ -23,8 +24,9 @@ var isIsomorphic = function (s, t) {
 };
 
 
-// ! VVV MY ORIGINAL SOLUTION VVV !
-// * Time Complexity: O(n), Space Complexity: O(k) => Effectively O(n), but rather than based on the sheer input "size" (length), it depends further on the Unique Characters of "n", which will either be equal to "n" or less than it.
+// * ORIGINAL SOLUTION:
+// * Time Complexity: O(n)
+// * Space Complexity: O(k) => Effectively O(n), but rather than based on the sheer input "size" (length), it depends further on the Unique Characters of "n", which will either be equal to "n" or less than it.
 // var isIsomorphic = function (s, t) {
 //     let seen = new Set();
 //     let sMap = new Map();

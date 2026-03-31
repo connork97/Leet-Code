@@ -3,7 +3,8 @@
  * @return {number}
  */
 
-// * O(n) Time Complexity, and O(1) Space Complexity
+// * Time Complexity: O(n)
+// * Space Complexity: O(1)
 var majorityElement = function(nums) {
 
     let candidate;
@@ -19,8 +20,8 @@ var majorityElement = function(nums) {
 };
 
 
-// * O(n) Time Complexity, and O(n) Space Complexity
-
+// * Time Complexity: O(n)
+// * Space Complexity: O(n)
 // var majorityElement = function(nums) {
 
 //     let majority = Math.floor(nums.length / 2) + 1;

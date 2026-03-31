@@ -25,9 +25,9 @@ var wordPattern = function(pattern, s) {
 };
 
 
-// ORIGINAL SOLUTION:  Time to Complete: 14:53
-// Time Complexity: O(n) => Originally I thought it was O(m + n), but the lengths are tied together at the start
-// Space Complexity: O(m + n)?
+// *ORIGINAL SOLUTION:  Time to Complete: 14:53
+// * Time Complexity: O(n) => Originally I thought it was O(m + n), but the lengths are tied together at the start
+// * Space Complexity: O(m + n)?
 // var wordPattern = function(pattern, s) {
 //     sArr = s.split(' ')
 //     if (pattern.length !== sArr.length) return false;
